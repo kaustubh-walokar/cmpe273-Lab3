@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+-------------Starting Rendezvous Cache Client------------------
+---------------------------------------------------------------
+------------------Add to the distributed caches----------------
+---------------------------------------------------------------
+hash when adding : -468932729
+hash when adding : -235024259
+hash when adding : 641842785
+New List : {-235024259=http://localhost:3001, 641842785=http://localhost:3002, -468932729=http://localhost:3000}
+put(1 => a) to http://localhost:3000
+put(2 => b) to http://localhost:3000
+put(3 => c) to http://localhost:3001
+put(4 => d) to http://localhost:3002
+put(5 => e) to http://localhost:3000
+put(6 => f) to http://localhost:3000
+put(7 => g) to http://localhost:3001
+put(8 => h) to http://localhost:3002
+put(9 => i) to http://localhost:3001
+put(10 => j) to http://localhost:3002
+---------------------------------------------------------------
+-----------Retrieve from the distributed caches----------------
+---------------------------------------------------------------
+get(1) => a from http://localhost:3000
+get(2) => b from http://localhost:3000
+get(3) => c from http://localhost:3001
+get(4) => d from http://localhost:3002
+get(5) => e from http://localhost:3000
+get(6) => f from http://localhost:3000
+get(7) => g from http://localhost:3001
+get(8) => h from http://localhost:3002
+get(9) => i from http://localhost:3001
+get(10) => j from http://localhost:3002
+Exiting Cache Client...
